@@ -1,11 +1,3 @@
-<?php
-session_start();
-
-if($_SESSION["s_usuario"] === null){
-    header("Location: https://csnlogin.4ks.online/login.php");
-}
-
-?>
 <!doctype html>
 <html>
 <head>
